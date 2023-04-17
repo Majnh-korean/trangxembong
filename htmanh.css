@@ -111,9 +111,18 @@ h2{
 .concac{
     width: 700px;
     height: 350px;
+    overflow: hidden;
+    
+}
+
+.concac img:hover{
+    transform: scale(1.1);
 }
 
 .concac img{
     width: 100%;
     height: 100%;
+    transform: scale(1);
+    transition: .1s linear transform;
+
 }
